@@ -7,7 +7,10 @@ Disqus can be turned on by filling in Disqus shortname value in Web.config.
 
 
 To build the database initially do the following steps.
+
 1. Open Package Manager Console
+
 2. Select Default Project "MyBlogSite.Domain" from drop down.
+
 3. run this command: 
 Update-Database -StartUpProjectName "MyBlogSite"
