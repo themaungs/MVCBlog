@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MyBlogSite.ViewModels.BlogVM>
+@if (User.Identity.IsAuthenticated)
+{
+    @Html.ActionLink("Write A Blog", "CreateChange", "Blog")
+}
+@foreach (var item in Model)
+{
+    <article class="clearfix">
+        <div class="post-date">
+            @item.PublishDate.ToLongDateString() | <a href="~/Page?Id=About%20Me">@item.Blogger </a>
+            @{
+                if (User.Identity.IsAuthenticated &&
+                                                    (User.IsInRole("Blogger")||
+                                                     User.IsInRole("Editor") ||
+                                                     User.IsInRole("Super-User")))
+                {
+                    @Html.ActionLink("Edit", "CreateChange", "Blog", new { id = item.BlogId }, null)
+                }
+            }
+            <span>@Html.ActionLink(item.BlogCategoryName, "Category","Blog",new { id= item.BlogCategoryId }, null)</span>
+        </div>
+        <h2>@Html.ActionLink(@item.Title, "Read", "Blog", new { id = item.Title }, null)</h2>
+        <div style="height:300px;   text-overflow: ellipsis; overflow: hidden;">
+            @Html.Raw(item.Article)
+        </div>
+    </article>
+}
+           @*<td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.BlogId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.BlogId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.BlogId })
+            </td>
+        </tr>
+    }
+
+</table>*@

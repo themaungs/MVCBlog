@@ -1,0 +1,42 @@
+﻿@model MyBlogSite.ViewModels.BlogVM
+@{
+    ViewBag.Title = "Home Page";
+}
+<h1>@Model.Title</h1>
+<h2>by @Model.Blogger <br />@Model.PublishDate.ToShortDateString() </h2>
+@if (User.IsInRole("Super-User")|| User.IsInRole("Editor"))
+{
+<h3>@Html.ActionLink("Edit", "CreateChange", new { Id = Model.BlogId })</h3>
+}
+@Html.Raw(Model.Article)
+
+<br /><br /><br />
+
+<div id="disqus_thread"></div>
+
+@if (System.Configuration.ConfigurationManager.AppSettings["Disqus"] != "")
+{
+    <script>
+            var disqusShortname = String('@System.Configuration.ConfigurationManager.AppSettings["DisqusShortName"]');
+            /**
+            * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+            */
+
+            var disqus_config = function () {
+            this.page.url = document.URL; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = String('@Model.BlogId'); // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            this.page.title = String('@Model.Title');
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+
+            s.src = '//'+disqusShortname+'.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+}

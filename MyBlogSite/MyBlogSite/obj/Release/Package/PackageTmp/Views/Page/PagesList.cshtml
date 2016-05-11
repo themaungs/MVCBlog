@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MyBlogSite.Domain.Models.Page>
+@{
+    ViewBag.Title = "Pages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Pages</h2>
+@Html.ActionLink("Create", "CreateChange",  new { @class = "btn btn-default" })
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShowPageDetails)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </th>
+        <th>&nbsp;</th>
+</tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShowPageDetails)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "CreateChange", new { id = item.PageId }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Details", "PageDetailsList" , "PageDetails", new { Id = item.PageId }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.PageId }, new { @class = "btn btn-default" })
+            </td>
+        </tr>
+    }
+</table>
+

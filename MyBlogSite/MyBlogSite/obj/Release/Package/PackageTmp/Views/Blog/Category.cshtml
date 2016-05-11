@@ -1,0 +1,8 @@
+﻿@model IEnumerable<MyBlogSite.ViewModels.BlogVM>
+
+@{
+    Layout = "~/Views/Shared/_LayoutBlogs.cshtml";
+}
+@{
+    Html.RenderPartial("~/Views/Blog/_BlogsList.cshtml", Model);
+}

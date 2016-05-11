@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MyBlogSite.Domain.Models.PageDetail>
+
+@{
+    String Title = ViewBag.Title;
+    Guid PageId = ViewBag.PageId;
+}
+
+@foreach (var item in Model) {
+    <div>
+        @Html.Raw(item.Detail)
+    </div>
+}
+

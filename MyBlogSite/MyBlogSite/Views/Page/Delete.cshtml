@@ -1,0 +1,47 @@
+﻿
+@model MyBlogSite.Domain.Models.Page
+@{
+    ViewBag.Title = "Pages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br/>
+<h3>Are you sure you want to delete this?</h3>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShowPageDetails)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </th>
+    </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.ShowPageDetails)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.CreatedDate)
+            </td>
+        </tr>
+</table>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        @Html.ActionLink("Back to List", "PagesList")
+    </div>
+}

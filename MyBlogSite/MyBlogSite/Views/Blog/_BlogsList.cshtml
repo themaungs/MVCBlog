@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MyBlogSite.ViewModels.BlogVM>
+@if (User.Identity.IsAuthenticated)
+{
+    @Html.ActionLink("Write A Blog", "CreateChange", "Blog")
+}
+<section class="tiles">
+@foreach (var item in Model)
+{
+
+    <article class="style1">
+        <span class="image">
+            <img src="@item.HeroImage" alt="" />
+        </span>
+        <a href="~/Blog/Read/@item.Title">
+            <h2>@item.Title</h2>
+            <div class="content" style="height:100px;   text-overflow: ellipsis; overflow: hidden;">
+                @Html.Raw(item.Article)
+            </div>
+        </a>
+    </article>
+}
+
+</section>

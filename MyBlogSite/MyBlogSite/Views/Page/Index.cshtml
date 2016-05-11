@@ -1,0 +1,28 @@
+﻿@model MyBlogSite.Domain.Models.Page
+@{
+    ViewBag.Title = "Home Page";
+    var titleConcat = Model.Title + (Model.Title2!=null && Model.Title2.Length > 0 ? " - " + Model.Title2 : "");
+}
+
+<h1>@titleConcat</h1>
+<span class="image main"><img src="@Model.HeroImage" alt="" /></span>
+<div>
+    @Html.Raw(Model.HtmlContent)
+</div><br /><br />
+<div id="pageDetails">
+
+</div>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+<script type="text/javascript" src="../Scripts/placeholders.min.js"></script>
+<script type="text/javascript" src="../Scripts/wow.min.js"></script>
+<script type="text/javascript" src="../Scripts/custom.js"></script>
+@*@RenderSection("scripts", required: false)*@
+<script type="text/javascript">
+            $.ajax({
+                url: "@Url.Action("DetailListPartial", "PageDetails", new { id = Model.PageId })",
+                success: function(data) {
+                    $("#pageDetails").html(data);
+                }
+            });
+</script>

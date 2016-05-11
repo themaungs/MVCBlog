@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MyBlogSite.Domain.Models.Page>
+<li><a href="~/">Home</a></li>
+@if (User.Identity.IsAuthenticated)
+{
+    <li><a href="~/Blog/CreateChange">Write A Blog</a></li>
+}
+<li><a href="~/Blog">Blogs</a></li>
+@if (User.Identity.IsAuthenticated)
+{
+    <li><a href="~/Page/PagesList">Manage Pages</a></li>
+}
+@if (Model != null)
+{
+
+    foreach (var item in Model)
+    {
+        //var ahref = ("../Pages/" + item.Title).Replace(" ","%20");
+        var ahref = ("/Page?Id=" + Uri.EscapeDataString(item.Title));
+        <li><a href=@ahref>@item.Title</a></li>
+    }
+
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <li><a href="~/Account/Login">Login</a></li>
+}
+@if (Request.IsAuthenticated)
+{
+    <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+    {
+        @Html.AntiForgeryToken()
+    }
+}

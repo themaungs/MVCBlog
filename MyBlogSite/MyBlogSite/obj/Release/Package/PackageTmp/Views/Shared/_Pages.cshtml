@@ -1,0 +1,16 @@
+﻿@model IEnumerable<MyBlogSite.Domain.Models.Page>
+@if (User.Identity.IsAuthenticated)
+{
+    <li><a href="../Blog/CreateChange"><i class="icon-file"></i>Write A Blog</a></li>
+}
+@if (Model != null)
+{
+
+    foreach (var item in Model)
+    {
+        //var ahref = ("../Pages/" + item.Title).Replace(" ","%20");
+        var ahref = ("Page?Id=" + Uri.EscapeDataString(item.Title));
+        <li><a href=@ahref><i class=@item.PageIcon></i>@item.Title</a></li>
+    }
+
+}

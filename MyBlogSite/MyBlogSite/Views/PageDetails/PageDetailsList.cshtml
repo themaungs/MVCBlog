@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MyBlogSite.Domain.Models.PageDetail>
+
+@{
+    String Title = ViewBag.Title;
+    Guid PageId = ViewBag.PageId;
+}
+
+<h2>@Title</h2>
+
+<p>
+    <a href="@Url.Action("PagesList", "Page")" class="btn btn-default">Back</a> | 
+    @Html.ActionLink("Create New", "CreateChange", new { pageId = PageId, pageDetailId = "" })
+</p>
+
+@foreach (var item in Model) {
+    <div>
+        @Html.Raw(item.Detail)
+        <hr></hr>
+        @Html.DisplayFor(modelItem => item.LastUpdatedBy) | 
+        @Html.DisplayFor(modelItem => item.LastUpdated) | 
+        @Html.ActionLink("Edit", "CreateChange", new { pageId = item.PageId, pageDetailId = item.PageDetailId }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.PageDetailId })
+    </div>
+}
+

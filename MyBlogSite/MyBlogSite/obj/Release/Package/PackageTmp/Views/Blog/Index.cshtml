@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MyBlogSite.ViewModels.BlogVM>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutBlogs.cshtml";
+}
+@{
+    Html.RenderPartial("~/Views/Blog/_BlogsList.cshtml", Model);
+}

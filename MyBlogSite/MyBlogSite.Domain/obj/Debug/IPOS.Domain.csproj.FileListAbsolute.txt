@@ -1,0 +1,92 @@
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\IPOS.Domain.dll.config
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\IPOS.Domain.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\IPOS.Domain.pdb
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\EntityFramework.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\EntityFramework.SqlServer.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\LINQtoCSV.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\log4net.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.DependencyCollector.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Newtonsoft.Json.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Owin.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\EntityFramework.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\EntityFramework.SqlServer.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\log4net.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.DependencyCollector.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\bin\Newtonsoft.Json.xml
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.Properties.Resources.resources
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.csproj.GenerateResource.Cache
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.dll
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.pdb
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.Migrations.Initialization.resources
+C:\Users\Min\documents\visual studio 2013\Projects\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.Migrations.CreateProfileTable.resources
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\IPOS.Domain.dll.config
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\IPOS.Domain.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\IPOS.Domain.pdb
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\EntityFramework.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\EntityFramework.SqlServer.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\LINQtoCSV.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\log4net.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.DependencyCollector.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Newtonsoft.Json.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Owin.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\EntityFramework.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\EntityFramework.SqlServer.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\log4net.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.DependencyCollector.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\bin\Newtonsoft.Json.xml
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.Migrations.Initialization.resources
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.Migrations.CreateProfileTable.resources
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.Properties.Resources.resources
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.csproj.GenerateResource.Cache
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.dll
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.pdb
+C:\Users\Min\Source\Repos\IPOS\IPOS.Domain\obj\Debug\IPOS.Domain.csprojResolveAssemblyReference.cache
